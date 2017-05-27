@@ -4,8 +4,7 @@ The goal of this project is to detect cars and track those vehicles throughout t
 
 - Test Video Result:
   ![Test Video]("videos/test_video_out.gif")
- 
-- [Project Video]("https://www.youtube.com/watch?v=Qn0w2xHP8U0")
+ -![Project Video]("https://www.youtube.com/watch?v=Qn0w2xHP8U0")
 
 ## Table of Contents ##
 - [Project codes](#codes)
