@@ -3,9 +3,10 @@
 The goal of this project is to detect cars and track those vehicles throughout the video. Non-vehicle and vehicle images were trained using a neural network. Advanced Lane Detection and Vehicle Detection/Tracking projects are combined here. Since a custom neural network is used feature selections are done by the model. 
 
 - Test Video Result:
-  ![Test Video]("videos/test_video_out.gif")
+
+  ![](videos/test_video_out.gif)
  
-- [Project Video]("https://www.youtube.com/watch?v=Qn0w2xHP8U0")
+- ![Project Video](https://www.youtube.com/watch?v=Qn0w2xHP8U0)
 
 ## Table of Contents ##
 - [Project codes](#codes)
@@ -33,17 +34,17 @@ The goal of this project is to detect cars and track those vehicles throughout t
 
 First images are normalized followed by two 2D Convolution layers then max_pooling. Right after 50% of data is dropped between dense layers. Model image is shown below. 
 
-![Model Information]("images/model_info.png")
+![Model Information](images/model_info.png)
 
-## Pipeline 
+## Pipeline <a name="pipeline"></a>
 
 Setting epoch=20 and batch_size=32, test accuracy is ~0.985 with 0.026 loss. For the last two epoch results are given below. 
 
-![Test data result]("images/test_result.png")
+![Test data result](images/test_result.png)
   
 test1.jpeg is used for heatmap and detecting the cars in the image.  
 
-![Heat Map]("images/heatmap.png")
+![Heat Map](images/heatmap.png)
 
 For video generation Advanced Lane Detection code and this project are combined for both detecting the lane lines also for car detection/tracking. 
 
