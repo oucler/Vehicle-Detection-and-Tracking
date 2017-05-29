@@ -33,6 +33,7 @@ class vehicleDetectionTracking:
         vehicleDetectionTracking.parse_dir(self)
         vehicleDetectionTracking.read_images(self)
         self.cross_validation()
+        print ("vehicleDetectionTracking class initilization is completed !!!")
     def parse_dir(self):
         self.cars = glob.glob(self.vehicle_dir+"/*/*.png")
         self.non_cars = glob.glob(self.nvehicle_dir+"/*/*.png")
